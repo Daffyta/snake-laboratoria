@@ -1,12 +1,26 @@
-#cabezaSerpiente {
+h1{
+  text-align: center;
+}
+
+#cuadrado {
   width: 20px;
   height: 20px;
   background-color: #5A0000;
+  position: absolute;
 }
 
 #contenedor {
   width: 500px;
   height: 500px;
   border: solid 1px black;
-  margin: 0px auto 0px auto; 
+  margin: 0px auto 0px auto;
+}
+
+#boton{
+  align: center;
+}
+
+button{
+  height: 50px;
+  width: 100px;
 }
